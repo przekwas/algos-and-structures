@@ -2,7 +2,7 @@
 	"compilerOptions": {
 		/* Modern JavaScript/TypeScript */
 		"target": "ES2022",
-		"module": "ESNext",
+		"module": "NodeNext",
 		"moduleResolution": "NodeNext",
 
 		/* Casual Type Checking */
