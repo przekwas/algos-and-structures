@@ -4,7 +4,8 @@
 	"description": "I am using this repo as my study guide as I do LeetCodes and independent study on this topic.  Whooo!",
 	"main": "index.js",
 	"scripts": {
-		"test": "vitest"
+		"test": "vitest",
+		"dev": "ts-node playground/playground.ts"
 	},
 	"repository": {
 		"type": "git",
