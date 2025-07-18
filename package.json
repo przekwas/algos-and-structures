@@ -3,6 +3,7 @@
 	"version": "1.0.0",
 	"description": "I am using this repo as my study guide as I do LeetCodes and independent study on this topic.  Whooo!",
 	"main": "index.js",
+	"type": "module",
 	"scripts": {
 		"test": "echo \"Error: no test specified\" && exit 1"
 	},
@@ -10,7 +11,12 @@
 		"type": "git",
 		"url": "git+https://github.com/przekwas/algos-and-structures.git"
 	},
-	"keywords": [],
+	"keywords": [
+		"algorithms",
+		"data-structures",
+		"leetcode",
+		"typescript"
+	],
 	"author": "Luke Przekwas",
 	"license": "ISC",
 	"bugs": {
