@@ -1,0 +1,25 @@
+{
+	"name": "algos-and-structures",
+	"version": "1.0.0",
+	"description": "I am using this repo as my study guide as I do LeetCodes and independent study on this topic.  Whooo!",
+	"main": "index.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/przekwas/algos-and-structures.git"
+	},
+	"keywords": [],
+	"author": "Luke Przekwas",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/przekwas/algos-and-structures/issues"
+	},
+	"homepage": "https://github.com/przekwas/algos-and-structures#readme",
+	"devDependencies": {
+		"@types/node": "^24.0.14",
+		"ts-node": "^10.9.2",
+		"typescript": "^5.8.3"
+	}
+}
