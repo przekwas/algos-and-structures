@@ -1,0 +1,33 @@
+{
+	"name": "algos-and-structures",
+	"version": "1.0.0",
+	"description": "I am using this repo as my study guide as I do LeetCodes and independent study on this topic.  Whooo!",
+	"main": "index.js",
+	"scripts": {
+		"test": "vitest",
+		"dev": "ts-node-dev --respawn --transpile-only --quiet playground/playground.ts"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/przekwas/algos-and-structures.git"
+	},
+	"keywords": [
+		"algorithms",
+		"data-structures",
+		"leetcode",
+		"typescript"
+	],
+	"author": "Luke Przekwas",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/przekwas/algos-and-structures/issues"
+	},
+	"homepage": "https://github.com/przekwas/algos-and-structures#readme",
+	"devDependencies": {
+		"@types/node": "^24.0.14",
+		"ts-node": "^10.9.2",
+		"ts-node-dev": "^2.0.0",
+		"typescript": "^5.8.3",
+		"vitest": "^3.2.4"
+	}
+}

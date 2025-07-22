@@ -1,0 +1,31 @@
+# Node.js
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# TypeScript/Build
+dist/
+*.js
+*.js.map
+!scripts/*.js  # if you want to keep compiled scripts
+
+# IDE/Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+
+# Environment
+.env
+.env.local
+
+# Testing
+coverage/
+.nyc_output/
+
+# Miscellaneous
+*.tmp
+*.bak
+*.patch
+*.orig

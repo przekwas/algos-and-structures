@@ -1,0 +1,28 @@
+{
+	"compilerOptions": {
+		/* Modern JavaScript/TypeScript */
+		"target": "ES2022",
+		"module": "NodeNext",
+		"moduleResolution": "NodeNext",
+
+		/* Casual Type Checking */
+		"strict": false,
+		"noImplicitAny": false,
+		"strictNullChecks": false,
+
+		/* VS Code Autocomplete Essentials */
+		"allowJs": true,
+		"checkJs": false,
+		"esModuleInterop": true,
+		"skipLibCheck": true,
+
+		/* Quality of Life */
+		"forceConsistentCasingInFileNames": true,
+		"exactOptionalPropertyTypes": false,
+
+		/* Output Control */
+		"noEmit": true // We only want type checking for VS Code
+	},
+	"include": ["**/*.ts", "**/*.tsx"],
+	"exclude": ["node_modules"]
+}
