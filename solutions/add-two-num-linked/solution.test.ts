@@ -26,21 +26,21 @@ function arrayToList(arr: number[]): ListNode | null {
 
 describe('addTwoNumbers()', () => {
 	describe('standard cases', () => {
-		test('finds the reversed output (Example 1)', () => {
+		test('finds added node list output (Example 1)', () => {
 			const l1 = arrayToList([2, 4, 3]);
 			const l2 = arrayToList([5, 6, 4]);
 			const output = arrayToList([7, 0, 8]);
 			expect(addTwoNumbers(l1, l2)).toEqual(output);
 		});
 
-		test('finds the reversed output (Example 2)', () => {
+		test('finds added node list output (Example 2)', () => {
 			const l1 = arrayToList([0]);
 			const l2 = arrayToList([0]);
 			const output = arrayToList([0]);
 			expect(addTwoNumbers(l1, l2)).toEqual(output);
 		});
 
-		test('finds the reversed output (Example 3)', () => {
+		test('finds added node list output (Example 3)', () => {
 			const l1 = arrayToList([9, 9, 9, 9, 9, 9, 9]);
 			const l2 = arrayToList([9, 9, 9, 9]);
 			const output = arrayToList([8, 9, 9, 9, 0, 0, 0, 1]);
@@ -49,7 +49,7 @@ describe('addTwoNumbers()', () => {
 	});
 
 	describe('edge cases', () => {
-		test('finds the reversed output (larger than int can handle)', () => {
+		test('finds added node list output (larger than int can handle)', () => {
 			const l1 = arrayToList([
 				1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1
 			]);
