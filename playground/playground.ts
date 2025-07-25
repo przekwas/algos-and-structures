@@ -1,5 +1,3 @@
-function findMedianSortedArrays(nums1: number[], nums2: number[]): number {
-	return 0;
-}
+function derp() {}
 
-export default findMedianSortedArrays;
+export default derp;
